@@ -1,0 +1,8 @@
+создать контейнер:
+docker build -t my_first_image .
+создать и запустить контейнер:
+docker run --name=my_first_container -p 1252:8000 my_first_imageв
+запустить контейнер:
+docker run --name=my_first_container -p 1252:8000 my_first_image
+окружение докера:
+docker exec -it my_first_container bash
